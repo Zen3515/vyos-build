@@ -6,6 +6,42 @@ Package: bash-completion
 Pin: release n=buster
 Pin-Priority: 600
 
+Package: libssl1.1
+Pin: release n=bullseye
+Pin-Priority: 600
+
+Package: crda
+Pin: release n=bullseye
+Pin-Priority: 600
+
+Package: wireless-regdb
+Pin: release n=bullseye
+Pin-Priority: 600
+
+# Package: libqmi-utils
+# Pin: release n=bullseye
+# Pin-Priority: 600
+
+# Package: libmbim-glib4
+# Pin: release n=bullseye
+# Pin-Priority: 600
+
+# Package: libqmi-glib5
+# Pin: release n=bullseye
+# Pin-Priority: 600
+
+# Package: libmbim-proxy
+# Pin: release n=bullseye
+# Pin-Priority: 600
+
+# Package: libqmi-proxy
+# Pin: release n=bullseye
+# Pin-Priority: 600
+
+# Package: modemmanager
+# Pin: release n=bullseye
+# Pin-Priority: 600
+
 Package: *
 Pin: release n=buster
 Pin-Priority: -10

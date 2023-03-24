@@ -1,3 +1,15 @@
+# About this fork
+
+This branch is dedicated for me personally to build vyos image that add support for my hardware.
+You're welcome to share me the insturction to add support of your hardware, if the instruction is clear, I'll include it here.
+
+## Current list of hardware support by me
+
+Below are the lsit of hardware that I tested, but the patch I apply here may add support for more that the list.
+
+* 2023/03/24 Quectel RM500U-CN (2c7c:0900) # 5G module (I don't recommend this for anyone intend to add 5G to vyos. it will show up as usb0 which vyos can't control)
+* 2023/03/24 COMFAST CF-953AX (3574:6211) # WiFi AX module with chipset MT7921U this device id is added in Linux 6.3.X+, this will be removed once 6.3.X or above become LTS.
+
 # About
 
 VyOS runs on a custom Linux Kernel (which is 4.19) at the time of this writing.
@@ -10,7 +22,7 @@ On the other hand we ship additional not mainlined features as WireGuard VPN.
 
 ## Kernel
 
-The Kernel is build from the vanilla repositories hosted at https://git.kernel.org.
+The Kernel is build from the vanilla repositories hosted at <https://git.kernel.org>.
 VyOS requires two additional patches to work which are stored in the patches/kernel
 folder.
 
